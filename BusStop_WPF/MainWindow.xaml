@@ -6,7 +6,7 @@
         xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
         xmlns:local="clr-namespace:BusStop_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+        Title="Singapore Bus Stops" Height="450" Width="800" WindowState="Maximized">
     <Grid>
         <m:Map x:Name="myMap" CredentialsProvider="AgVvHaYmRPecOZaoeTgOrB7UWq85wnvJClPoJyeFeF_h7WJD7-EkOzrobMt-pdyQ" Mode="Road" ZoomLevel="12" />
     </Grid>
