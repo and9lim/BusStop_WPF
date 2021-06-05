@@ -1,0 +1,13 @@
+﻿<Window x:Class="BusStop_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:BusStop_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="AgVvHaYmRPecOZaoeTgOrB7UWq85wnvJClPoJyeFeF_h7WJD7-EkOzrobMt-pdyQ" Mode="Road" ZoomLevel="12" />
+    </Grid>
+</Window>
